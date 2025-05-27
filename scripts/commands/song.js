@@ -86,7 +86,7 @@ module.exports.convertHMS = function(value) {
     return (hours != '00' ? hours +':': '') + minutes+':'+seconds;
 }
 module.exports.run = async function ({ api, event, args }) {
-    if (args.length == 0 || !args) return api.sendMessage('» উফফ আবাল কি গান শুনতে চাস তার ২/১ লাইন তো লেখবি নাকি 🥵 empty!', event.threadID, event.messageID);
+    if (args.length == 0 || !args) return api.sendMessage('» আসসালামু আলাইকুম আপনি কি গান শুনতে চান তার ২/১ লাইন লিখেন এভাবে.Song সুহাসীনি ✅💯!', event.threadID, event.messageID);
     const keywordSearch = args.join(" ");
     var path = `${__dirname}/cache/1.mp3`
     if (fs.existsSync(path)) { 
