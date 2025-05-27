@@ -9,15 +9,15 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "nayan-bot",
-  "PREFIX": "/",
+  "BOTNAME": "𝐄𝐯𝐚𝐧-𝐌𝐚𝐥𝐥𝐢𝐤-🤖",
+  "PREFIX": ".",
   "react": "☠️",
   "OPERATOR": [
     "",
-    "100000959749712"
+    "61550296092949"
   ],
   "ADMINBOT": [
-    "100000959749712",
+    "61550296092949",
     ""
   ],
   "OWNER": ["100000959749712"], 
